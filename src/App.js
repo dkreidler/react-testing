@@ -30,7 +30,7 @@ class App extends Component {
 						],
 						backgroundColor:[
 							'rgba(29,14,70,0.7)',
-							'#rgba(103,2,112,0.7)',
+							'rgba(103,2,112,0.7)',
 							'rgba(176,0,84,0.7)',
 							'rgba(226,0,12,0.7)',
 							'rgba(255,90,0,0.7)',
