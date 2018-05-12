@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import {Polar} from 'react-chartjs-2';
+import {Radar} from 'react-chartjs-2';
+<script src="C:\Batcave\react-testing\node_modules\chartjs-heatmap-master"></script>
+
 
 class Chart extends Component {
     constructor(props){
@@ -21,7 +23,7 @@ class Chart extends Component {
     render() {
         return (
             <div className="chart">
-                <Polar
+                <Radar
                     data={this.state.chartData}
                     options={{
                         maintainAspectRatio: true,

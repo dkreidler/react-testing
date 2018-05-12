@@ -19,21 +19,31 @@ class App extends Component {
 				labels: ['Deadlift','Squat','Bench','Clean','Jerk','Snatch'],
 				datasets:[
 					{
-						label:'Weights',
+						label:'December',
 						data:[
-							505,
-							365,
-							265,
-							245,
-							235,
-							185
+							455,
+							315,
+							225,
+							215,
+							195,
+							165
 						],
 						backgroundColor:[
 							'rgba(29,14,70,0.7)',
-							'rgba(103,2,112,0.7)',
-							'rgba(176,0,84,0.7)',
-							'rgba(226,0,12,0.7)',
-							'rgba(255,90,0,0.7)',
+						]   
+
+					},
+					{
+						label:'January',
+						data:[
+							515,
+							375,
+							275,
+							255,
+							245,
+							225
+						],
+						backgroundColor:[
 							'rgba(255,205,77,0.7)'
 						]   
 
